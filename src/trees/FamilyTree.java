@@ -134,6 +134,7 @@ public class FamilyTree {
         {
             parentNode = root.getNodeWithName(parent);
             if (parentNode == null){
+                // hi yt
                 throw new TreeException("Parent node " + parent + "'  not found in tree");
             }  
             
